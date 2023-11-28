@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title></title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet" />
+  <!--bootstrap-->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!--ICON-->
+  <link rel="stylesheet" href="css/all.min.css" />
+  <!--CSS-->
+  <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+<div class="loading">
+  <div class="loadingspinner">
+    <div id="square1"></div>
+    <div id="square2"></div>
+    <div id="square3"></div>
+    <div id="square4"></div>
+    <div id="square5"></div>
+  </div>
+</div>
+
+  <div class="container">
+    <div class="player sticky-top mb-3 mt-2 p-2 p-md-4 rounded-5 w-100  text-light d-flex  flex-column justify-content-center align-items-center ">
+      <h2 class="ayah mt-3 m-0 lh-lg">اضغط علي السوره للاستماع اليها</h2>
+
+      <audio src="" class="my-4 w-100" controls autoplay></audio>
+
+      <div class="w-100 d-flex justify-content-around align-items-center mb-3">
+        <div id="next" class="icon bg-success rounded-circle d-flex justify-content-center align-items-center">
+          <i class="fas fa-forward"></i>
+        </div>
+
+        <div id="play" class="icon bg-success rounded-circle d-flex justify-content-center align-items-center">
+          <i class="fas fa-play"></i>
+        </div>
+
+        <div id="prev" class="icon bg-success rounded-circle d-flex justify-content-center align-items-center">
+          <i class="fas fa-backward"></i>
+        </div>
+      </div>
+    </div>
+    <div class="soura"></div>
+  </div>
+
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
